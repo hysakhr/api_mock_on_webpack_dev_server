@@ -8,4 +8,4 @@ services:
       - 8080:8080
     volumes:
       - ./:/app
-    # command: bash -c "chmod 777 -R /app && cd /app/sample && npm run serve"
+    command: bash -c "cd /app/sample && npm i && npm run serve"
